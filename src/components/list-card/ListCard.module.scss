@@ -8,15 +8,35 @@ $black: #000000;
 .listCard {
   background-color: $white;
   border: 1px solid $black;
+  border-radius: 10px;
   box-shadow: 4px 5px 4px $black;
   width: 328px;
+
+  &.dark {
+    border-color: $white;
+    box-shadow: 4px 5px 4px $white;
+  }
 }
 .headerSpace {
   background-color: $platinum;
   font-size: 36px;
-  color: $smoky-black;
   text-align: center;
   height: 105px;
+
+  &.dark {
+    background-color: $nickel;
+    color: $white;
+  }
+}
+
+.headerTitle {
+  margin: 0;
+  display: block;
+
+  &.dark {
+    background-color: $nickel;
+    color: $white;
+  }
 }
 
 .itemSpace {
@@ -26,6 +46,11 @@ $black: #000000;
   line-height: 20px;
   min-height: 320px;
   list-style: none;
+
+  &.dark {
+    background-color: $silver-sand;
+    color: $white;
+  }
 }
 
 .listItem {
