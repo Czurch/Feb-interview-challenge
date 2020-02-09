@@ -1,0 +1,33 @@
+$white: #ffffff;
+$platinum: #e8e8e8;
+$silver-sand: #c2c2c2;
+$nickel: #727272;
+$smoky-black: #0c0c0c;
+$black: #000000;
+
+.listCard {
+  background-color: $white;
+  border: 1px solid $black;
+  box-shadow: 4px 5px 4px $black;
+  width: 328px;
+}
+.headerSpace {
+  background-color: $platinum;
+  font-size: 36px;
+  color: $smoky-black;
+  text-align: center;
+  height: 105px;
+}
+
+.itemSpace {
+  margin: 0;
+  padding: 20px;
+  color: $smoky-black;
+  line-height: 20px;
+  min-height: 320px;
+  list-style: none;
+}
+
+.listItem {
+  padding-bottom: 10px;
+}

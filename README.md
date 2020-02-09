@@ -28,6 +28,7 @@ Open [http://localhost:9009](http://localhost:9009) to view it in the browser.
  - Create a List-Card component that uses the Material-UI Card component as a base. This CardList component should accept a header prop and an items prop that renders the list items    with a custom "-" before each item.
  - Include an example of the component in our main app homepage.
  - Include 3 examples of the component in our Storybook style guide displaying the default component and the various props.
+ - Style the List-Card to look like the designs supplied
 
  **We strongly recommend getting the component functional and examples created before getting the styling pixel perfect.
 
